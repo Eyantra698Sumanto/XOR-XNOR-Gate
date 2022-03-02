@@ -92,13 +92,21 @@ The following is the schematic in eSim:
 ![image](https://user-images.githubusercontent.com/58599984/156439590-9371c62f-384b-42f8-9403-9704429d752d.png)
 ## GAW Plots
 ![image](https://user-images.githubusercontent.com/58599984/156439535-edb78fc7-a6e6-4178-864a-7cea5ea37e23.png)
-
+## Steps to run generate NgVeri Model
+1. Open eSim
+2. Run NgVeri-Makerchip 
+3. Add top level verilog file in Makerchip Tab
+4. Click on NgVeri tab
+5. Add dependency files
+6. Click on Run Verilog to NgSpice Converter
+7. Debug if any errors
+8. Model created successfully
 ## Steps to run this project
 1. Open a new terminal
 2. Clone this project using the following command:</br>
 ```git clone https://github.com/Eyantra698Sumanto/XOR-XNOR-Gate.git ```</br>
 3. Change directory:</br>
-```cd xor_xnor```</br>
+```cd eSim_project_files/xor_xnor```</br>
 4. Run ngspice:</br>
 ```ngspice xor_xnor.cir.out```</br>
 5. To run the project in eSim:
