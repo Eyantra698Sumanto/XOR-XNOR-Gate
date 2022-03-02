@@ -1,4 +1,4 @@
-# Two-in-One-Low-power-XOR-XNOR-Gate
+# XOR-XNOR-Gate
 ## Table of Contents
 - [Abstract](#abstract)
 - [Reference Circuit Diagram](#reference-circuit-diagram)
@@ -8,7 +8,7 @@
 - [Software Used](#software-used)
   * [eSim](#esim)
   * [NgSpice](#ngspice)
-  * [Sky130 Process Development Kit](#sky130-process-development-kit)
+
 - [Circuit Diagram in eSim](#circuit-diagram-in-esim)
 - [Netlists](#netlists)
 - [NgSpice Plots](#ngspice-plots)
@@ -69,15 +69,26 @@ https://esim.fossee.in/home
 It is an Open Source Software for Spice Simulations. For more details refer:
 </br>
 http://ngspice.sourceforge.net/docs.html
+### Makerchip
+It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation. Refer
+</br> https://www.makerchip.com/
+### Verilator
+It is a tool which converts Verilog code to C++ objects. Refer:
+https://www.veripool.org/verilator/
 
 ## Circuit Diagram in eSim
 The following is the schematic in eSim:
-![image](https://user-images.githubusercontent.com/58599984/152689138-782225f4-7e95-4ec2-a595-84ae342f1752.png)
+![image](https://user-images.githubusercontent.com/58599984/156439856-079de481-b68d-4955-b9c9-6ff310c5de58.png)
+## Verilog Code
+![image](https://user-images.githubusercontent.com/58599984/156439904-bddbf2df-2c84-40cd-a7cc-d936715e1d96.png)
+
 ## Netlists
 ![image](https://user-images.githubusercontent.com/58599984/152695534-7d150279-55f1-4f62-a689-e7ca643a4266.png)
 ## NgSpice Plots
-![image](https://user-images.githubusercontent.com/58599984/156439624-353c14ac-4216-4aa7-8207-64f4c287b2b7.png)
+![image](https://user-images.githubusercontent.com/58599984/156440036-188911e0-9bb2-4d9f-b53d-878f5792d1c6.png)
+![image](https://user-images.githubusercontent.com/58599984/156440082-c3f319ef-3224-4595-85e9-38bae135350f.png)
 
+![image](https://user-images.githubusercontent.com/58599984/156439624-353c14ac-4216-4aa7-8207-64f4c287b2b7.png)
 ![image](https://user-images.githubusercontent.com/58599984/156439590-9371c62f-384b-42f8-9403-9704429d752d.png)
 ## GAW Plots
 ![image](https://user-images.githubusercontent.com/58599984/156439535-edb78fc7-a6e6-4178-864a-7cea5ea37e23.png)
@@ -85,11 +96,11 @@ The following is the schematic in eSim:
 ## Steps to run this project
 1. Open a new terminal
 2. Clone this project using the following command:</br>
-```git clone https://github.com/Eyantra698Sumanto/Two-in-One-Low-power-XOR-XNOR-Gate.git ```</br>
+```git clone https://github.com/Eyantra698Sumanto/XOR-XNOR-Gate.git ```</br>
 3. Change directory:</br>
 ```cd xor_xnor```</br>
 4. Run ngspice:</br>
-```ngspice xor_xnor_sky130.cir.out```</br>
+```ngspice xor_xnor.cir.out```</br>
 5. To run the project in eSim:
 
   - Run eSim</br>
@@ -97,11 +108,13 @@ The following is the schematic in eSim:
   - Open eeSchema</br>
 ## Acknowlegdements
 1. FOSSEE, IIT Bombay
-2. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
-3. Sumanto Kar, eSim Team, FOSSEE
+2. Steve Hoover, Founder, Redwood EDA
+3. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
+4. Sumanto Kar, eSim Team, FOSSEE
 
 ## References
 1. Ahmad, Nabihah & Hasan, Rezaul. (2011). A new design of XOR-XNOR gates for low power application. 10.1109/ICEDSA.2011.5959039. 
 2. K. Ravali, N. R. Vijay, S. Jaggavarapu and R. Sakthivel, "Low power XOR gate design and its applications," 2017 Fourth International Conference on Signal Processing, Communication and Networking (ICSCN), 2017, pp. 1-4, doi: 10.1109/ICSCN.2017.8085699.
+3. https://github.com/Eyantra698Sumanto/Two-in-One-Low-power-XOR-XNOR-Gate.git
 
 
