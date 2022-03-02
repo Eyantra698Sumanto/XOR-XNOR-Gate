@@ -1,5 +1,5 @@
+# Mixed Signal Circuit Design and Simulation Marathon
 # XOR-XNOR-Gate
-## Table of Contents
 - [Abstract](#abstract)
 - [Reference Circuit Diagram](#reference-circuit-diagram)
 - [Reference Waveform](#reference-waveform)
@@ -8,15 +8,22 @@
 - [Software Used](#software-used)
   * [eSim](#esim)
   * [NgSpice](#ngspice)
-
+  * [Makerchip](#makerchip)
+  * [Verilator](#verilator)
 - [Circuit Diagram in eSim](#circuit-diagram-in-esim)
+- [Verilog Code](#verilog-code)
+- [Makerchip](#makerchip-1)
+- [Makerchip Plots](#makerchip-plots)
 - [Netlists](#netlists)
 - [NgSpice Plots](#ngspice-plots)
+- [GAW Plots](#gaw-plots)
+- [Steps to run generate NgVeri Model](#steps-to-run-generate-ngveri-model)
 - [Steps to run this project](#steps-to-run-this-project)
 - [Acknowlegdements](#acknowlegdements)
 - [References](#references)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## Abstract
 With the increasing technology, the size of the transistors is
