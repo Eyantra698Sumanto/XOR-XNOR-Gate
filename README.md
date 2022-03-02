@@ -83,7 +83,7 @@ The following is the schematic in eSim:
 ![image](https://user-images.githubusercontent.com/58599984/156439904-bddbf2df-2c84-40cd-a7cc-d936715e1d96.png)
 
 ## Netlists
-![image](https://user-images.githubusercontent.com/58599984/152695534-7d150279-55f1-4f62-a689-e7ca643a4266.png)
+![image](https://user-images.githubusercontent.com/58599984/156440985-0a983124-b5ad-4b60-b83f-7adf0e7c36fb.png)
 ## NgSpice Plots
 ![image](https://user-images.githubusercontent.com/58599984/156440036-188911e0-9bb2-4d9f-b53d-878f5792d1c6.png)
 ![image](https://user-images.githubusercontent.com/58599984/156440082-c3f319ef-3224-4595-85e9-38bae135350f.png)
