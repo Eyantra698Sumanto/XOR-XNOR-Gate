@@ -98,6 +98,7 @@ The following is the schematic in eSim:
 ## Acknowlegdements
 1. FOSSEE, IIT Bombay
 2. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
+3. Sumanto Kar, eSim Team, FOSSEE
 
 ## References
 1. Ahmad, Nabihah & Hasan, Rezaul. (2011). A new design of XOR-XNOR gates for low power application. 10.1109/ICEDSA.2011.5959039. 
