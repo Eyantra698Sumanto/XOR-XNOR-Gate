@@ -1,0 +1,43 @@
+* /home/sumanto/desktop/hackathon/xor-xnor-gate/esim_project_files/xor_xnor/xor_xnor.cir
+
+.include NMOS-180nm.lib
+.include PMOS-180nm.lib
+
+m2 a b xnor_analog gnd CMOSN  L=100u W=100u M=1
+m6 xnor_analog a b gnd CMOSN  L=100u W=100u M=1
+v1  a gnd pulse(0 3.3 0.1u 0.1u 0.1u 1m 2m)
+m4 xor_analog xnor_analog gnd gnd CMOSN  L=100u W=100u M=1
+m3 xnor_analog xor_analog vdd vdd CMOSP  L=100u W=100u M=1
+v3 vdd gnd  dc 3.3
+v2  b gnd pulse(0 3.3 0.1u 0.1u 0.1u 2m 4m)
+m5 xor_analog a b vdd CMOSP  L=100u W=100u M=1
+m1 xor_analog b a vdd CMOSP  L=100u W=100u M=1
+* u3  net-_u1-pad3_ net-_u1-pad4_ xor_digital xnor_digital dac_bridge_2
+* u4  xor_digital plot_v1
+* u5  xnor_digital plot_v1
+* u2  a b net-_u1-pad1_ net-_u1-pad2_ adc_bridge_2
+* u1  net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ net-_u1-pad4_ ixorxnor
+* u6  xor_analog plot_v1
+* u7  xnor_analog plot_v1
+a1 [net-_u1-pad3_ net-_u1-pad4_ ] [xor_digital xnor_digital ] u3
+a2 [a b ] [net-_u1-pad1_ net-_u1-pad2_ ] u2
+a3 [net-_u1-pad1_ ] [net-_u1-pad2_ ] [net-_u1-pad3_ ] [net-_u1-pad4_ ] u1
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u3 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_2, NgSpice Name: adc_bridge
+.model u2 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             ixorxnor, NgSpice Name: ixorxnor
+.model u1 ixorxnor(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+.tran 0.1e-03 20e-03 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(xor_digital)
+plot v(xnor_digital)
+plot v(xor_analog)
+plot v(xnor_analog)
+.endc
+.end

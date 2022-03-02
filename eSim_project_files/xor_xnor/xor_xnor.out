@@ -1,0 +1,1558 @@
+
+No compatibility mode selected!
+
+
+Circuit: * /home/sumanto/desktop/hackathon/xor-xnor-gate/esim_project_files/xor_xnor/xor_xnor.cir
+
+Warning: Model issue on line 1 :
+  .model cmosp pmos (level=8 version=3.2 tnom=27 tox=4.1e-9 xj=1e-7 nch=4. ...
+unrecognized parameter (+) - ignored
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Checking parameters for BSIM 3.2 model cmosp
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Checking parameters for BSIM 3.2 model cmosn
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: v2: no DC value, transient time 0 value used
+Warning: v1: no DC value, transient time 0 value used
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=0
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+a                                            0
+b                                            0
+xnor_analog                                3.3
+xor_analog                         1.60525e-08
+vdd                                        3.3
+xor_digital                                  0
+xnor_digital                                 5
+v2#branch                          1.27053e-11
+v3#branch                         -3.86509e-11
+v1#branch                          1.27053e-11
+a1#branch_1_0                                0
+a1#branch_1_1                                0
+
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+No. of Data Rows : 23746
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+binary raw file "/home/sumanto/Desktop/hackathon/XOR-XNOR-Gate/eSim_project_files/xor_xnor/xor_xnor.raw"
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Checking parameters for BSIM 3.2 model cmosp
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+
+Checking parameters for BSIM 3.2 model cmosn
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: v2: no DC value, transient time 0 value used
+Warning: v1: no DC value, transient time 0 value used
+No. of Data Columns : 13  
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=0
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+a                                            0
+b                                            0
+xnor_analog                                3.3
+xor_analog                         1.60525e-08
+vdd                                        3.3
+xor_digital                                  0
+xnor_digital                                 5
+v2#branch                          1.27053e-11
+v3#branch                         -3.86509e-11
+v1#branch                          1.27053e-11
+a1#branch_1_0                                0
+a1#branch_1_1                                0
+
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=1
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+yXOR=0
+yXNOR=1
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+=============ixorxnor : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+yXOR=1
+yXNOR=0
+
+Inside foo after eval.....
+a=0
+b=0
+yXOR=0
+yXNOR=1
+
+No. of Data Rows : 23746
+
+Total analysis time (seconds) = 6.78091
+
+Total CPU time (seconds) = 9.678 
+
+Total DRAM available = 4772.531 MB.
+DRAM currently available =  256.961 MB.
+Maximum ngspice program size =  100.891 MB.
+Current ngspice program size =   21.539 MB.
+
+Shared ngspice pages =   10.277 MB.
+Text (code) pages =    6.242 MB.
+Stack = 0 bytes.
+Library pages =   13.371 MB.
+

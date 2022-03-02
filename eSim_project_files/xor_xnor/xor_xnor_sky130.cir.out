@@ -1,0 +1,24 @@
+* /home/sumanto/videos/xor_xnor/xor_xnor.cir
+.lib "../sky130_fd_pr/models/sky130.lib.spice" tt
+* /home/sumanto/videos/xor_xnor/xor_xnor.cir
+
+xm2  a b xnor gnd sky130_fd_pr__nfet_01v8
+xm6  xnor a b gnd sky130_fd_pr__nfet_01v8
+v1  a gnd pulse(0 3.3 0.1n 0.1n 0.1n 2u 4u)
+xm4  xor xnor gnd gnd sky130_fd_pr__nfet_01v8
+xm3  xnor xor vdd vdd sky130_fd_pr__pfet_01v8
+v3 vdd gnd  dc 3.3
+v2  b gnd pulse(0 3.3 1u 0.1n 0.1n 4u 8u)
+xm5  xor a b vdd sky130_fd_pr__pfet_01v8
+xm1  xor b a vdd sky130_fd_pr__pfet_01v8
+.tran 0.1e-06 20e-06 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(a) v(b)+6 v(xor)+12 v(xnor)+18
+.endc
+.end
+

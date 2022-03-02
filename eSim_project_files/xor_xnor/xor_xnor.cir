@@ -1,0 +1,26 @@
+* /home/sumanto/Desktop/hackathon/XOR-XNOR-Gate/eSim_project_files/xor_xnor/xor_xnor.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Thu Mar  3 01:29:07 2022
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+M2  A B xnor_analog GND mosfet_n		
+M6  xnor_analog A B GND mosfet_n		
+v1  A GND pulse		
+M4  xor_analog xnor_analog GND GND mosfet_n		
+M3  xnor_analog xor_analog Vdd Vdd mosfet_p		
+v3  Vdd GND DC		
+v2  B GND pulse		
+M5  xor_analog A B Vdd mosfet_p		
+M1  xor_analog B A Vdd mosfet_p		
+U3  Net-_U1-Pad3_ Net-_U1-Pad4_ xor_digital xnor_digital dac_bridge_2		
+U4  xor_digital plot_v1		
+U5  xnor_digital plot_v1		
+U2  A B Net-_U1-Pad1_ Net-_U1-Pad2_ adc_bridge_2		
+U1  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ ixorxnor		
+U6  xor_analog plot_v1		
+U7  xnor_analog plot_v1		
+
+.end
