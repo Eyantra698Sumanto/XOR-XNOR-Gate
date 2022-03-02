@@ -69,12 +69,7 @@ https://esim.fossee.in/home
 It is an Open Source Software for Spice Simulations. For more details refer:
 </br>
 http://ngspice.sourceforge.net/docs.html
-### Sky130 Process Development Kit
-The Skywater 130nm technology is developed by Google for 130nm node. The PDK is open source and current under development.
-</br>
-For more details refer:
-</br>
-https://skywater-pdk.readthedocs.io/en/main/#
+
 ## Circuit Diagram in eSim
 The following is the schematic in eSim:
 ![image](https://user-images.githubusercontent.com/58599984/152689138-782225f4-7e95-4ec2-a595-84ae342f1752.png)
@@ -96,8 +91,9 @@ The following is the schematic in eSim:
   - Load the project</br>
   - Open eeSchema</br>
 ## Acknowlegdements
-1. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
-2. SFAL HACKATHON TEAM
+1. FOSSEE, IIT Bombay
+2. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
+
 ## References
 1. Ahmad, Nabihah & Hasan, Rezaul. (2011). A new design of XOR-XNOR gates for low power application. 10.1109/ICEDSA.2011.5959039. 
 2. K. Ravali, N. R. Vijay, S. Jaggavarapu and R. Sakthivel, "Low power XOR gate design and its applications," 2017 Fourth International Conference on Signal Processing, Communication and Networking (ICSCN), 2017, pp. 1-4, doi: 10.1109/ICSCN.2017.8085699.
