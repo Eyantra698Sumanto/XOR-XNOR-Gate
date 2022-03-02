@@ -80,7 +80,7 @@ https://www.veripool.org/verilator/
 The following is the schematic in eSim:
 ![image](https://user-images.githubusercontent.com/58599984/156439856-079de481-b68d-4955-b9c9-6ff310c5de58.png)
 ## Verilog Code
-![image](https://user-images.githubusercontent.com/58599984/156439904-bddbf2df-2c84-40cd-a7cc-d936715e1d96.png)
+![image](https://user-images.githubusercontent.com/58599984/156442352-e3676344-de60-417d-a188-740d072a04ba.png)
 
 ## Netlists
 ![image](https://user-images.githubusercontent.com/58599984/156440985-0a983124-b5ad-4b60-b83f-7adf0e7c36fb.png)
