@@ -76,7 +76,12 @@ The following is the schematic in eSim:
 ## Netlists
 ![image](https://user-images.githubusercontent.com/58599984/152695534-7d150279-55f1-4f62-a689-e7ca643a4266.png)
 ## NgSpice Plots
-![image](https://user-images.githubusercontent.com/58599984/152690017-6b2b665c-f73a-46c4-ae52-39135bd46ac7.png)
+![image](https://user-images.githubusercontent.com/58599984/156439624-353c14ac-4216-4aa7-8207-64f4c287b2b7.png)
+
+![image](https://user-images.githubusercontent.com/58599984/156439590-9371c62f-384b-42f8-9403-9704429d752d.png)
+## GAW Plots
+![image](https://user-images.githubusercontent.com/58599984/156439535-edb78fc7-a6e6-4178-864a-7cea5ea37e23.png)
+
 ## Steps to run this project
 1. Open a new terminal
 2. Clone this project using the following command:</br>
